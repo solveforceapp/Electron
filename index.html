@@ -1,87 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Electron Applications - SolveForce Cross-Platform Telecommunications Software</title>
-    <meta name="description" content="Build powerful cross-platform desktop applications for telecommunications management, network monitoring, and enterprise operations using Electron framework.">
+    <title>Electron | SolveForce Unified Intelligence</title>
+    <meta name="description" content="Discover the electron—its etymology, role in electronics, and significance in the age of Unified Intelligence by SolveForce.">
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            margin: 0;
+            font-family: 'Segoe UI', Arial, sans-serif;
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: #333;
-            line-height: 1.6;
             min-height: 100vh;
-            display: flex;
-            flex-direction: column;
+            color: #222;
         }
-
-        header {
-            background: rgba(255, 255, 255, 0.95);
-            -webkit-backdrop-filter: blur(10px);
-            backdrop-filter: blur(10px);
-            padding: 1.5rem 2rem;
-            box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
-            position: sticky;
-            top: 0;
-            z-index: 1000;
+        .overlay {
+            background: rgba(255,255,255,0.88);
+            margin: 2.5rem auto;
+            max-width: 720px;
+            border-radius: 1.7rem;
+            box-shadow: 0 8px 32px rgba(76, 68, 182, 0.13);
+            padding: 2.7rem 2.1rem 2.1rem 2.1rem;
         }
-
-        .header-content {
-            max-width: 1400px;
-            margin: 0 auto;
-            display: grid;
-            grid-template-columns: 1fr auto 1fr;
-            align-items: center;
-            gap: 2rem;
-        }
-        
-        .header-content nav {
-            justify-self: end;
-        }
-
-        .logo {
-            font-size: 1.8rem;
-            font-weight: 700;
-            color: #667eea;
-            text-decoration: none;
-        }
-
-        .header-phone {
-            font-size: 1.3rem;
-            font-weight: 700;
-            color: #667eea;
-            text-decoration: none;
-            white-space: nowrap;
-        }
-
-        .header-phone:hover {
+        h1 {
             color: #764ba2;
+            font-size: 2.7rem;
+            margin-bottom: 0.4rem;
+            letter-spacing: 0.01em;
         }
-
-        nav a {
-            color: #333;
-            text-decoration: none;
-            margin-left: 2rem;
-            font-weight: 500;
-            transition: color 0.3s;
-        }
-
-        nav a:hover {
+        h2 {
             color: #667eea;
+            margin-top: 2.1rem;
         }
-
-        .hero {
+        .etymology {
+            font-style: italic;
+            color: #444;
+            margin-bottom: 1.3rem;
+        }
+        .quote {
+            background: rgba(118,75,162,0.07);
+            border-left: 4px solid #764ba2;
+            margin: 1.5rem 0;
+            padding: 1rem 1.2rem;
+            font-size: 1.1rem;
+            color: #333;
+        }
+        .footer {
             text-align: center;
-            padding: 5rem 2rem 3rem;
-            color: white;
+            margin-top: 3.2rem;
+            color: #888;
+            font-size: 1rem;
         }
+        a {
+            color: #764ba2;
+            text-decoration: underline;
+        }
+        @media (max-width: 600px) {
+            .overlay {
+                padding: 1.2rem 0.5rem;
+            }
+            h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="overlay" role="main">
+        <h1>Electron</h1>
+        <div class="etymology">Etymology: From Greek <strong>ēlektron</strong> (ἤλεκτρον), meaning “amber”—the ancient source of static electricity and the root of the word <em>electricity</em>.</div>
+        <div class="quote">“The electron is the fundamental carrier of electricity, the invisible thread weaving together the fabric of modern technology.”</div>
+        <p>
+            The <strong>electron</strong> is a subatomic particle with a negative charge, discovered in 1897 by J.J. Thomson. Its movement underpins all electrical phenomena and is the foundation of electronics, computation, and communication.
+        </p>
+        <h2>Electronics: From Amber to AI</h2>
+        <p>
+            The journey from rubbing amber in ancient Greece to today’s microprocessors is the story of the electron. Electronics harness the flow of electrons to create circuits, devices, and networks—powering everything from smartphones to satellites.
+        </p>
+        <h2>Unified Intelligence &amp; SolveForce</h2>
+        <p>
+            At SolveForce, Unified Intelligence means integrating the physical and digital worlds. By understanding the electron’s role in both nature and technology, we deliver solutions that connect, analyze, and empower organizations globally.
+        </p>
+        <h2>Why the Electron Matters</h2>
+        <p>
+            The electron is more than a particle—it’s a symbol of innovation, connectivity, and transformation. Its discovery unlocked the age of electronics, and its mastery drives the future of Unified Intelligence.
+        </p>
+        <div class="footer">
+            &copy; 2025 SolveForce | <a href="https://solveforce.com/">Unified Intelligence</a>
+        </div>
+    </div>
+</body>
+</html>
 
         .hero h1 {
             font-size: 3.5rem;
